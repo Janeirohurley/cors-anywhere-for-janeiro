@@ -1,0 +1,7 @@
+services:
+  - type: web,
+    name: cors-anywhere,
+    env: node,
+    plan: true,
+    buildCommand: npm install,
+    startCommand: node server.js
